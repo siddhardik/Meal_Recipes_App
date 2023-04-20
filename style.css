@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --bgc:#00002c;
+}
+
+body{
+    background-color: var(--bgc);
+}
+
+/* User Defined Class  */
+
+.border{
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+.centre_text{
+    text-align: centre;
+    font-family: 'Chivo Mono', monospace;
+}
+
+
+
+/* Navbar Design */
+
+nav{
+    width:100%;
+    height:8vh;
+    display:flex;
+    justify-content: space-around;
+    /* To Centre verically items  */
+    align-items: center; 
+
+
+}
+
+/* web_logo Style  */
+.web_logo{
+    height:95%;
+    width:45px;
+   
+    border-radius: 50%;
+}
+.web_logo img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+
+}
+
+img:hover{
+    scale:1.06;
+}
+
+.slogan{
+
+animation: zoom-in-zoom-out 3s ease-in-out infinite;
+/* The animation has both a slow start and a slow end */
+/* animation: zoom-in-zoom-out 3s ease-in-out 10; */
+/* animation-iteration-count: 2; 2=> times played infinite => infinite times played  */
+color:white;
+}
+
+.fav_list a{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.fav_list:hover{
+    scale: 1.2;
+}
+
+
+
+
+
