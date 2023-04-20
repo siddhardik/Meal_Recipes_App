@@ -72,13 +72,68 @@ color:white;
 
 .fav_list a{
     color:white;
+    /* When any erroe occured to load go0gle font */
     font-family:'Courier New', Courier, monospace;
+
+    font-family: 'Chivo Mono', monospace; 
     font-weight: 900;
 }
 
 .fav_list:hover{
     scale: 1.2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Footer  */
+footer {
+    background-color: #fff;
+    margin-top: 7vh  !important;
+    margin:auto;
+    width:278px;
+}
+
 
 
 
